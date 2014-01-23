@@ -1,0 +1,12 @@
+{
+  "name": "cloud-former-visualizer",
+  "version": "0.0.0",
+  "dependencies": {
+    "d3": "~3.4.1",
+    "jquery": "~2.0.3",
+    "font-awesome": "~4.0.3",
+    "sass-bootstrap": "~3.0.2",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {}
+}

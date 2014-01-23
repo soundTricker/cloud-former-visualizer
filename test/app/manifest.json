@@ -1,0 +1,23 @@
+{
+  	"name": "__MSG_appName__",
+  	"description": "__MSG_appDescription__",
+  	"version": "1",
+  	"manifest_version": 2,
+  	"default_locale": "en",
+  	"permissions": [
+  		"app.runtime",
+  		"app.window",
+  		{
+  			"fileSystem": [
+  				"write",
+  				"retainEntries",
+  				"directory"
+  			]
+  		},
+  		"fullscreen",
+  		"storage",
+  		"syncFileSystem",
+  		"unlimitedStorage",
+  		"<all_urls>"
+  	]
+  }
