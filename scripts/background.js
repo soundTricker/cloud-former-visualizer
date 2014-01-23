@@ -1,0 +1,1 @@
+(function(){"use strict";chrome.app.runtime.onLaunched.addListener(function(){var a,b;b=500,a=300,chrome.app.window.create("index.html",{id:"main",bounds:{width:b,height:a,left:Math.round((screen.availWidth-b)/2),top:Math.round((screen.availHeight-a)/2)}})})}).call(this);
