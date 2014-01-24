@@ -122,7 +122,10 @@ module.exports = (grunt) ->
 
       dist:
         options:
+          debugInfo: false
           generatedImagesDir: "<%= yeoman.dist %>/images/generated"
+          noLineComments: true
+          environment: 'production'
       server:
         options:
           debugInfo: true
@@ -162,7 +165,7 @@ module.exports = (grunt) ->
         dirs: ["<%= yeoman.dist %>"]
 
       html: ["<%= yeoman.dist %>/{,*/}*.html"]
-      css: ["<%= yeoman.dist %>/styles/{,*/}*.css"]
+      css: ["<%= yeoman.dev %>/styles/{,*/}*.css"]
 
     imagemin:
       dist:
