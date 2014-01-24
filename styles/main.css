@@ -7628,131 +7628,140 @@ td.visible-print {
     display: none !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\000035}}
 body {
   padding-top: 70px;
   padding-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000310}}
 svg {
   font: 10px sans-serif;
+  background-color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000316}}
 .axis path, .axis line {
   fill: none;
   stroke: #000;
   shape-rendering: crispEdges;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000323}}
 sup, sub {
   line-height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000323}}
-q:before, blockquote:before {
-  content: "?";
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000327}}
-q:after, blockquote:after {
+q:before, blockquote:before, q:after {
   content: "?";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000332}}
+blockquote:after {
+  content: "?";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000335}}
 blockquote:before {
   position: absolute;
   left: 2em;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000339}}
 blockquote:after {
   position: absolute;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000344}}
 .node {
   stroke: #fff;
   stroke-width: 1.5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000349}}
 .link {
   stroke: #999;
   stroke-opacity: .6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000355}}
 .node rect {
   cursor: move;
   fill-opacity: .9;
   shape-rendering: crispEdges;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000360}}
 .node text {
   pointer-events: none;
   text-shadow: 0 1px 0 #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000366}}
 .link {
   fill: none;
   stroke: #000;
   stroke-opacity: .2;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000370}}
 .link:hover {
   stroke-opacity: .5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000375}}
 circle.node-dot {
   fill: DarkSlateGray;
   stroke: SlateGray;
   stroke-width: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000381}}
 line.link {
   fill: none;
   stroke: SlateGray;
   stroke-width: 1.5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000387}}
 marker#defaultMarker {
   fill: SlateGray;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000391}}
 line.link.defaultMarker {
   stroke: SlateGray;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000395}}
 circle {
   fill: #ccc;
   stroke: #333;
   stroke-width: 1.5px;
+  stroke-opacity: 0.9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\00003100}}
+circle:hover {
+  stroke: black;
+  stroke-width: 2.5px;
+  stroke-opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\00003107}}
+.current circle {
+  stroke: black;
+  stroke-width: 2.5px;
+  stroke-opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\00003113}}
 text {
   pointer-events: none;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\00003115}}
 text.text {
   stroke: #000;
   stroke-width: .8px;
   stroke-opacity: .8;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\00003120}}
 text.shadow {
   stroke: #fff;
   stroke-width: 3px;
