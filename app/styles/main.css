@@ -7759,9 +7759,8 @@ text {
 text.text {
   stroke: #000;
   stroke-width: .8px;
-  stroke-opacity: .8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tominaga\/git\/bft\/cloud-former-visualizer\/src\/main\/sass\/main\.scss}line{font-family:\00003119}}
 text.shadow {
   stroke: #fff;
   stroke-width: 3px;

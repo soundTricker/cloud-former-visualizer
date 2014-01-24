@@ -191,6 +191,13 @@ $("#visualizeBtn").click ()->
 
     redraw = ()->
       svg.attr("transform" , "translate(#{d3.event.translate}) scale(#{d3.event.scale})")
+      svg.selectAll("text")
+          .style("font-size" , (12 / d3.event.scale) + "px")
+      svg.selectAll("text.text")
+          .style("stroke-width" , (0.8 / d3.event.scale) + "px")
+      svg.selectAll("text.shadow")
+          .style("stroke-width" , (3 / d3.event.scale) + "px")
+
       return false
 
     svg = d3.select("#graphArea")
