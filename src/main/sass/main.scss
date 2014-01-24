@@ -1,4 +1,5 @@
 @import "compass";
+
 @import 'sass-bootstrap/lib/bootstrap';
 
 body {
@@ -6,108 +7,119 @@ body {
   padding-bottom: 20px;
 }
 
- svg {
+svg {
   font: 10px sans-serif;
- }
+  background-color: white;
+}
 
- .axis path, .axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
- }
+.axis {
+  path, line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+}
 
- sup, sub {
+sup, sub {
   line-height: 0;
- }
+}
 
- q:before, blockquote:before {
+q:before, blockquote:before, q:after {
   content: "?";
- }
+}
 
- q:after, blockquote:after {
-  content: "?";
- }
-
- blockquote:before {
-  position: absolute;
-  left: 2em;
- }
-
- blockquote:after {
-  position: absolute;
- }
-
+blockquote {
+  &:after {
+    content: "?";
+  }
+  &:before {
+    position: absolute;
+    left: 2em;
+  }
+  &:after {
+    position: absolute;
+  }
+}
 
 .node {
-stroke : #fff;
-stroke-width : 1.5px;
+  stroke: #fff;
+  stroke-width: 1.5px;
 }
 
 .link {
-stroke: #999;
-stroke-opacity: .6;
+  stroke: #999;
+  stroke-opacity: .6;
 }
 
+.node {
+  rect {
+    cursor: move;
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+  }
+  text {
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff;
+  }
+}
 
-.node rect {
-cursor: move;
-fill-opacity: .9;
-shape-rendering: crispEdges;
-}
-.node text {
-pointer-events: none;
-text-shadow: 0 1px 0 #fff;
-}
 .link {
-fill: none;
-stroke: #000;
-stroke-opacity: .2;
-}
-.link:hover {
-stroke-opacity: .5;
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+  &:hover {
+    stroke-opacity: .5;
+  }
 }
 
 circle.node-dot {
-fill: DarkSlateGray;
-stroke: SlateGray;
-stroke-width: 1px;
+  fill: DarkSlateGray;
+  stroke: SlateGray;
+  stroke-width: 1px;
 }
 
-
 line.link {
-fill: none;
-stroke: SlateGray;
-stroke-width: 1.5px;
+  fill: none;
+  stroke: SlateGray;
+  stroke-width: 1.5px;
 }
 
 marker#defaultMarker {
-fill: SlateGray;
+  fill: SlateGray;
 }
 
 line.link.defaultMarker {
-stroke: SlateGray;
+  stroke: SlateGray;
 }
 
 circle {
-fill: #ccc;
-stroke: #333;
-stroke-width: 1.5px;
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+  stroke-opacity: 0.9;
+  &:hover {
+    stroke: darken(#333, 30%);
+    stroke-width: 2.5px;
+    stroke-opacity: 1;
+  }
+}
+
+.current circle {
+  stroke: darken(#333, 30%);
+  stroke-width: 2.5px;
+  stroke-opacity: 1;
 }
 
 text {
-pointer-events: none;
+  pointer-events: none;
+  &.text {
+    stroke: #000;
+    stroke-width: .8px;
+    stroke-opacity: .8;
+  }
+  &.shadow {
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-opacity: .8;
+  }
 }
-
-text.text {
-stroke: #000;
-stroke-width: .8px;
-stroke-opacity: .8;
-}
-
-text.shadow {
-stroke: #fff;
-stroke-width: 3px;
-stroke-opacity: .8;
-}
-
-  

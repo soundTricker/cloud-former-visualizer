@@ -273,5 +273,5 @@ module.exports = (grunt) ->
     grunt.task.run ["jshint", "connect:livereload", "watch"]
 
   grunt.registerTask "test", ["connect:test", "jasmine"]
-  grunt.registerTask "build", ["clean:dist","coffee:dist","jade:dist","compass:dist", "chromeManifest:dist", "useminPrepare", "concurrent:dist", "cssmin", "concat", "uglify", "copy", "usemin", "compress"]
+  grunt.registerTask "build", ["clean:dist","coffee:dist","jade:dist","compass:dist", "useminPrepare", "concurrent:dist", "cssmin", "concat", "uglify", "copy", "usemin", "compress"]
   grunt.registerTask "default", ["jshint", "test", "build"]

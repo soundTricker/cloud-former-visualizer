@@ -37,8 +37,20 @@ html
         section#result
             .page-header
                 h4 Result
+            h5 Usage
+            dl.dl-horizontal
+                dt Click a node
+                dd Show a detail of node
+                dt DoubleClick a node
+                dd Showing nodes that is dependent on clicked node
+                dt Drag a graph area
+                dd Pan
+                dt Mouse while
+                dd Zoom
             .row
-                #graphArea.col-xs-8.col-sm-8.col-md-8.col-lg-8
+                .col-xs-8.col-sm-8.col-md-8.col-lg-8
+                    .well.well-sm
+                        #graphArea
                 #nodeArea.col-xs-4.col-sm-4.col-md-4.col-lg-4
                     h3 Node Information
                     .well.well-sm
